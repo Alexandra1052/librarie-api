@@ -125,5 +125,5 @@ app.delete('/carti/:id', verificaApiKey, (req, res) => {
 });
 
 app.listen(PORT, ()=>{
-    console.log(`serverul ruleaza pe http://localhost:${PORT}`);
+    console.log(`serverul ruleaza pe http://localhost:${PORT} !!!`);
 })
